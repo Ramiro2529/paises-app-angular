@@ -3,8 +3,8 @@ body{
   background-color: rgb(91, 67, 129);
 }
 
-h1,h2{
-  color: aliceblue;
+h1,h2,h3,h5{
+  color: rgb(58, 168, 117);
 }
 
 p{

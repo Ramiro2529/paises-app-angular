@@ -45,5 +45,16 @@ export class PaisService {
     // rxjs
   }
 
+  buscarPaisPorRegion(continente:string):Observable<CountryResponse[]>{
+
+    const url=`${this.apiUrl}/region/${continente}`
+    return this.http.get<CountryResponse[]>(url);
+    // .pipe(
+    //   catchError(err=>of
+    //     ([]))
+    // )
+    // rxjs
+  }
+
 
 }
